@@ -323,16 +323,16 @@ sent to word count.
 
 29. Miscellaneous Unix power commands
 
-  1. View penultimate 10 lines of a file with head and tail commands
+  01. View penultimate 10 lines of a file with head and tail commands
 >tail -n 20 file.txt | head
-  2. Show lines of a file that begin with a start codon (^ matches start line patterns)
+  02. Show lines of a file that begin with a start codon (^ matches start line patterns)
 >grep "^ATG" file.txt
-  3. cut out the 3rd column of a tab-delimited text file
+  03. cut out the 3rd column of a tab-delimited text file
   also sort it to only unique lines (remove duplicates)
 >cut -f 3 file.txt | sort -u
-  4. count how many lines in a file contain the words cat or bat
+  04. count how many lines in a file contain the words cat or bat
 >grep -c '[bc]at' file.txt
-  5. turn lower case text to upper case
+  05. turn lower case text to upper case
 >tr 'a-z' 'A-Z' < file.txt
-  6. Change all occurrences of 'Chr1' to 'Chromosome 1' and output to new file
+  06. Change all occurrences of 'Chr1' to 'Chromosome 1' and output to new file
 > sed 's/Chr1/Chromosome 1/g' file.txt > file2.txt
