@@ -322,6 +322,7 @@ sent to word count.
 #### test each step of the pipe as it is built###
 
 29. Miscellaneous Unix power commands
+
   1. View penultimate 10 lines of a file with head and tail commands
 >tail -n 20 file.txt | head
   2. Show lines of a file that begin with a start codon (^ matches start line patterns)
